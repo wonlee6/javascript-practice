@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>크롬 웹</title>
+    <script
+      src="https://kit.fontawesome.com/a2a65fa9f0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -15,13 +19,18 @@
         <input type="text" placeholder="what is your name?" />
       </div>
     </form>
-    <h4 class="js-greetings greetings"></h4>
-    <div style="text-align: center; padding: 13px">
-      <span class="js-weather"></span>
+    <div class="js-greetings greetings"></div>
+    <div class="weather-api">
+      <span class="js-weather"></span>&nbsp;<i
+        class="fas fa-temperature-low"
+      ></i>
+      <span class="js-wather-city"></span>&nbsp;<i
+        class="fas fa-map-marker-alt"
+      ></i>
     </div>
     <form class="js-toDoForm">
       <div class="Todoo">
-        <input type="text" placeholder="write a to do" />
+        <input class="todoo-input" type="text" placeholder="write a to do" />
       </div>
     </form>
     <div class="List">
